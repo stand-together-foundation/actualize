@@ -4,3 +4,5 @@
 .env-data-science
 ^data-raw$
 ^\.github$
+^docs$
+pkgdown.yaml
