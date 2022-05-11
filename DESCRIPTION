@@ -1,11 +1,13 @@
 Package: actualize
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Tools and utilities for STF measurement framework
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Joseph A. Mienko
+Maintainer: The package maintainer <jmienko@standtogether.org>
+Description: Functions and utilities for implementing a Hadley-style 
+  workflow for data importation, tidying, visualizing, modeling, and 
+  communicating using data collected by the Stand Together Foundation 
+  Impact Team (STF-Impact).
 License: GPL
 Encoding: UTF-8
 LazyData: true
@@ -25,3 +27,4 @@ Imports:
    tidyr,
    magrittr
 RoxygenNote: 7.1.1
+Remotes: github::daqana/dqmagic
