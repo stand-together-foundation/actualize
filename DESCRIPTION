@@ -9,8 +9,6 @@ Description: Functions and utilities for implementing a Hadley-style
   communicating using data collected by the Stand Together Foundation 
   Impact Team (STF-Impact).
 License: GPL
-Encoding: UTF-8
-LazyData: true
 Imports:
    dotenv,
    dplyr,
