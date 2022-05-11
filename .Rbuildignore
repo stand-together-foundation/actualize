@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.secrets$
+.env-data-science
+^data-raw$
+^\.github$

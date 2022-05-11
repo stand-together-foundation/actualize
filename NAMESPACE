@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("stats", "filter")
+importFrom("utils", "read.table", "write.table")
+importFrom("magrittr", "%>%")
+
