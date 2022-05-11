@@ -12,7 +12,12 @@ on:
 name: pkgdown
 
 jobs:
+  ubuntu: 
+    runs-on: ubuntu-latest
+      - name: Install dqmagic
+      run: sudo apt-get install libmagic-dev    
   pkgdown:
+    needs: ubuntu
     runs-on: ubuntu-latest
     # Only restrict concurrency for non-PR jobs
     concurrency:
@@ -20,9 +25,6 @@ jobs:
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
-    
-      - name: Install dqmagic
-        run: sudo apt-get install libmagic-dev
     
       - uses: actions/checkout@v2
 
