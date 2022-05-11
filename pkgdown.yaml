@@ -20,6 +20,10 @@ jobs:
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
+    
+      - name: Install dqmagic
+        run: sudo apt-get install libmagic-dev
+    
       - uses: actions/checkout@v2
 
       - uses: r-lib/actions/setup-pandoc@v2
